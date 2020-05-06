@@ -4,7 +4,7 @@ import { LineChart } from 'react-native-chart-kit';
 import Constants from 'expo-constants';
 import * as Location from 'expo-location';
 import { example } from './data';
-const key = '960bf03d37f84911b3a0e3f6cd4de94e';
+const key = 'add your own key from https://opencagedata.com/';
 
 function wait(timeout) {
   return new Promise(resolve => {
