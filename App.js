@@ -3,7 +3,6 @@ import { Platform, Text, View, StyleSheet, ActivityIndicator, Picker, Dimensions
 import { LineChart } from 'react-native-chart-kit';
 import Constants from 'expo-constants';
 import * as Location from 'expo-location';
-import { example } from './data';
 const key = 'add your own key from https://opencagedata.com/';
 
 function wait(timeout) {
